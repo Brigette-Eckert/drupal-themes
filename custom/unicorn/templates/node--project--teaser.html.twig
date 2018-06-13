@@ -1,0 +1,10 @@
+{% include '@molecules/bubblecard/_bubblecard.twig' with {
+    title: node.title.0.value,
+    description: node.body.0.value | striptags,
+    image: file_url(node.field_project_screenshot.entity.fileuri),
+    github_link: node.field_github_link.0.uri,
+    demo_link: node.field_link.0.uri
+    }
+%}
+
+{{ kint(node.field_project_screenshot) }}

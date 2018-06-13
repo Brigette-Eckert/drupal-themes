@@ -1,0 +1,17 @@
+name: 'Ice-Cream'
+type: theme
+description: 'A great theme for warm sunny days'
+core: 8.x
+base theme: classy
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  content-bottom: 'Content (bottom)'
+  primary_menu: 'Primary Menu'
+  banner_top: 'Banner (top)'
+  banner_bottom: 'Banner (bottom)'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+

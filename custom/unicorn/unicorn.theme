@@ -1,0 +1,12 @@
+<?php
+
+function unicorn_preprocess_node(&$variables, $hook) {
+  if ($hook == 'node') {
+    xdebug_break();
+  }
+  if ($variables['logged_in'] == TRUE && $variables['node']->getOwnerId() == $variables['user']->id()) {
+    $variables['label']['#suffix'] = ' [you are the author]';
+  }
+}
+
+

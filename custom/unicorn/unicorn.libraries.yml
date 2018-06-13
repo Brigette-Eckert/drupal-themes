@@ -1,0 +1,5 @@
+core:
+  css:
+    theme:
+      ./css/base.css:
+        preprocess: true
