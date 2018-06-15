@@ -1,0 +1,16 @@
+{
+  "minify": true,
+  "options": [
+    "addTest",
+    "mq",
+    "testAllProps",
+    "testProp",
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/cookies",
+    "test/cors",
+    "test/emoji",
+    "test/css/textshadow"
+  ]
+}
